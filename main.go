@@ -8,6 +8,23 @@ import (
 
 func main() {
 
+	// type Timer interface {
+	// 	Start()
+	// 	Stop()
+	// }
+
+	// type StopWath struct {
+
+	// }
+
+	// func (s *StopWath) Start() {
+
+	// }
+
+	// func (s *StopWath) Stop() {
+
+	// }
+
 	file, err := os.Create("file/log.txt")
 	if err != nil {
 		log.Print(err)
